@@ -8,48 +8,71 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!--barre de navigation-->
 <header class="sticky-top">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand logo" href="#"><img src="img/lavomatique.png" width="40" alt="logo"></a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <div class="dropdown-divider"></div>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Accueil</a>
-          </li>
-          <div class="dropdown-divider"></div>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Dashboard</a>
-          </li>
-          <div class="dropdown-divider"></div>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créer</a>
-            <!-- bloc menu déroulant -->
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">un article</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">une page</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">une galerie</a>
-            </div>
-          </li>
-          <div class="dropdown-divider"></div>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Aide</a>
-          </li>
-        </ul>
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-admin col2 align-items-center">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand logo" href="#"><img src="img/logo-wash-wash-2.png" width="40" alt="logo"></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+      
+                  <div class="dropdown-divider"></div>
+      
+                  <li class="nav-item active">
+                    <a class="nav-link" href="admin.html"><i class="fa fa-th-list"></i>Dashboard</a>
+                  </li>
+      
+                  <div class="dropdown-divider"></div>
+      
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-pencil-square-o"></i>Créer</a>
+                      <!-- bloc menu déroulant -->
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Page</a>
+                        <a class="dropdown-item" href="#">Article</a>
+                      </div>
+                  </li>
+      
+                  <div class="dropdown-divider"></div>
+      
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-file-image-o"></i>Galerie</a>
+                      <!-- bloc menu déroulant -->
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Image</a>
+                        <a class="dropdown-item" href="#">Importer une image</a>
+                        <a class="dropdown-item" href="#">Prendre une photo</a>
+                      </div>
+                    </li>
+      
+                  <div class="dropdown-divider"></div>
+      
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-pencil-square-o"></i>Modidier</a>
+                  </li>
+      
+                  <div class="dropdown-divider"></div>
+      
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-search"></i>Aide</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
       </div>
-    </nav>
-  </header>
-
+    </div>
+  </div>
+</header>
   
 <div class="container-fluid">
     <div class="row">

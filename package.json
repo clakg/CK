@@ -29,7 +29,8 @@
   "author": "Matthieu Schneider",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0"
   },
   "devDependencies": {
     "imagemin-cli": "^4.0.1",

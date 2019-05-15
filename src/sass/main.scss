@@ -24,16 +24,16 @@ body {
 
 .goutte-1 {
     background-image: url("../img/goutte-1.png");
-    background-size: 100px 144px;
+    background-size: 60px 104px;
     background-position: unset;
     background-repeat: no-repeat;
-    padding: 0%;
+    padding: 6%;
     position: absolute;
 }
 
 .goutte-1 {
     animation-name: gg;
-    animation-duration: 10s;
+    animation-duration: 30s;
     animation-timing-function: ease-out;
     animation-direction: linear ;
     animation-delay: 0s;
@@ -42,13 +42,13 @@ body {
 
 @keyframes gg {
     0% {
-        transform:translate(400px, 300px)
+        transform:translate(480px, 300px)
     }
     50% {
-        transform:transalte(370px, 400px)
+        transform:transalte(450px, 450px)
     }
     100% {
-        transform:translate(340px, 500px)
+        transform:translate(400px, 500px)
     }
 }
 
@@ -58,12 +58,12 @@ body {
     background-repeat: no-repeat;
     background-position: unset;
     position: absolute;
-    padding: 0%;
+    padding: 3%;
 }
 
 .goutte-2 {
     animation-name: gg2;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-timing-function: ease;
     animation-direction: linear ;
     animation-delay: 0s;
@@ -72,13 +72,13 @@ body {
 
 @keyframes gg2 {
     0% {
-        transform:translate(1000px, 300px)
+        transform:translate(480px, 300px)
     }
     50% {
-        transform:transalte(1010px, 400px)
+        transform:transalte(450px, 450px)
     }
     100% {
-        transform:translate(1020px, 500px)
+        transform:translate(400px, 500px)
     }
 }
 
@@ -100,6 +100,17 @@ h2 {
 
 h3 {
     color: white;
+}
+
+/* ------------- navigation admin ------------*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fa {
+    margin: 0 10px;
 }
 
 /* ------------Formulaire d'identification-------------- */
@@ -152,10 +163,11 @@ label {
 //    min-height: 100vh;
 }
 
-
 /* -----------------pied de page----------------- */
 
 footer {
     background-color: #2a2b2b;
     color: white;
+    font-size: 12px;
+    font-style: italic;
 }
